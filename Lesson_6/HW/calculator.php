@@ -47,7 +47,7 @@
     </select>
     <input name="y" type="number" style="width: 50px" value="<?=$y?>">
     <input type="submit" value="=" style="width: 30px">
-    <b><?php if(isset($z)) echo "$z"?></b>
+    <b><? if(isset($z)) echo "$z"?></b>
 </form>
 </body>
 </html>
