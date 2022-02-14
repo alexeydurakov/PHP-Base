@@ -2,7 +2,7 @@
 /* Точка входа в приложение. */
 session_start();
 // Подключим файл с константами настроек.
-require_once $_SERVER['DOCUMENT_ROOT'] . "/../config/layout.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/../views/layouts/layout.php";
 
 $url_array = explode("/", $_SERVER['REQUEST_URI']);
 
